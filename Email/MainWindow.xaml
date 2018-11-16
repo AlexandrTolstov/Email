@@ -5,10 +5,50 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Email"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="400">
     <Grid>
-        <StackPanel>
-            
+        <StackPanel Margin="20">
+            <Label FontSize="15">Имя:</Label>
+            <Border CornerRadius="2"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    MaxWidth="200"
+                    HorizontalAlignment="Left">
+                <TextBox MinWidth="200"  
+                         HorizontalAlignment="Left"
+                         BorderThickness="0"
+                         Background="Transparent"
+                         FontSize="15"
+                         Margin="4"></TextBox>
+            </Border>
+            <Label FontSize="15">Email:</Label>
+            <Border CornerRadius="2"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    MaxWidth="200"
+                    HorizontalAlignment="Left">
+                <TextBox MinWidth="200"  
+                         HorizontalAlignment="Left"
+                         BorderThickness="0"
+                         Background="Transparent"
+                         FontSize="15"
+                         Margin="4"></TextBox>
+            </Border>
+            <Label FontSize="15">Сообщение:</Label>
+            <Border CornerRadius="2"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    MaxWidth="200"
+                    MinHeight="100"
+                    HorizontalAlignment="Left">
+                <TextBox MinWidth="200"  
+                         HorizontalAlignment="Left"
+                         BorderThickness="0"
+                         Background="Transparent"
+                         FontSize="15"
+                         Margin="4"
+                         MinHeight="100"></TextBox>
+            </Border>
         </StackPanel>
     </Grid>
 </Window>
